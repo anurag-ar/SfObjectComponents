@@ -594,6 +594,106 @@
         <errorMessage>Account number should contain 8 digits</errorMessage>
     </validationRules>
     <validationRules>
+        <fullName>AR_Ext_id_is_Seven</fullName>
+        <active>true</active>
+        <errorConditionFormula>AutorabitExtId__c  = &quot;Seven&quot;</errorConditionFormula>
+        <errorDisplayField>AutorabitExtId__c</errorDisplayField>
+        <errorMessage>AR Ext id</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Acc_Number_is_Numeric</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+   NOT(ISBLANK(AccountNumber)),
+   NOT(ISNUMBER(AccountNumber))
+)</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account Number is not numeric.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Account_Number_8_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>AR_Ext_id_is_Seven</fullName>
+        <active>true</active>
+        <errorConditionFormula>AutorabitExtId__c  = &quot;Seven&quot;</errorConditionFormula>
+        <errorDisplayField>AutorabitExtId__c</errorDisplayField>
+        <errorMessage>AR Ext id</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Acc_Number_is_Numeric</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+   NOT(ISBLANK(AccountNumber)),
+   NOT(ISNUMBER(AccountNumber))
+)</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account Number is not numeric.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Account_Number_8_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>AR_Ext_id_is_Seven</fullName>
+        <active>true</active>
+        <errorConditionFormula>AutorabitExtId__c  = &quot;Seven&quot;</errorConditionFormula>
+        <errorDisplayField>AutorabitExtId__c</errorDisplayField>
+        <errorMessage>AR Ext id</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Acc_Number_is_Numeric</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+   NOT(ISBLANK(AccountNumber)),
+   NOT(ISNUMBER(AccountNumber))
+)</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account Number is not numeric.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Account_Number_8_Characters</fullName>
+        <active>true</active>
+        <errorConditionFormula>LEN(AccountNumber)!= 8</errorConditionFormula>
+        <errorDisplayField>AccountNumber</errorDisplayField>
+        <errorMessage>Account number should contain 8 digits</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Skip_Bankrupt_Acc</fullName>
+        <active>false</active>
+        <errorConditionFormula>AnnualRevenue  &lt; -1000000</errorConditionFormula>
+        <errorDisplayField>AnnualRevenue</errorDisplayField>
+        <errorMessage>Revenue is less than -1000000</errorMessage>
+    </validationRules>
+	    <validationRules>
+        <fullName>Skip_Bankrupt_Acc</fullName>
+        <active>false</active>
+        <errorConditionFormula>AnnualRevenue  &lt; -1000000</errorConditionFormula>
+        <errorDisplayField>AnnualRevenue</errorDisplayField>
+        <errorMessage>Revenue is less than -1000000</errorMessage>
+    </validationRules>
+		    <validationRules>
+        <fullName>Skip_Bankrupt_Acc</fullName>
+        <active>false</active>
+        <errorConditionFormula>AnnualRevenue  &lt; -1000000</errorConditionFormula>
+        <errorDisplayField>AnnualRevenue</errorDisplayField>
+        <errorMessage>Revenue is less than -1000000</errorMessage>
+    </validationRules>
+		    <validationRules>
+        <fullName>Skip_Bankrupt_Acc</fullName>
+        <active>false</active>
+        <errorConditionFormula>AnnualRevenue  &lt; -1000000</errorConditionFormula>
+        <errorDisplayField>AnnualRevenue</errorDisplayField>
+        <errorMessage>Revenue is less than -1000000</errorMessage>
+    </validationRules>
+		    <validationRules>
         <fullName>Skip_Bankrupt_Acc</fullName>
         <active>false</active>
         <errorConditionFormula>AnnualRevenue  &lt; -1000000</errorConditionFormula>
