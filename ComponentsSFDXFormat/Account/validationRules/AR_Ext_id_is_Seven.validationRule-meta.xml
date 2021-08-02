@@ -4,5 +4,5 @@
     <active>false</active>
     <errorConditionFormula>AutorabitExtId__c  = &quot;Seven&quot;</errorConditionFormula>
     <errorDisplayField>AutorabitExtId__c</errorDisplayField>
-    <errorMessage>AR Ext id</errorMessage>
+    <errorMessage>AR Ext id cannot be 7</errorMessage>
 </ValidationRule>

@@ -176,7 +176,7 @@
             <name>Gold</name>
             <type>FieldUpdate</type>
         </actions>
-        <active>true</active>
+        <active>false</active>
         <criteriaItems>
             <field>Opportunity.Amount</field>
             <operation>greaterOrEqual</operation>
