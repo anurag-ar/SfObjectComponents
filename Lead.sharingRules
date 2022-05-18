@@ -12,9 +12,9 @@
         </sharedFrom>
     </sharingOwnerRules>
     <sharingOwnerRules>
-        <fullName>R2</fullName>
+        <fullName>R23</fullName>
         <accessLevel>Read</accessLevel>
-        <label>R2</label>
+        <label>R23</label>
         <sharedTo>
             <allInternalUsers></allInternalUsers>
         </sharedTo>
